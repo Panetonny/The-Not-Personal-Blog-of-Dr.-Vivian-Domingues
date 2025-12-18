@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0) 0%, rgba(69, 92, 39, 1) 28%, rgba(96, 115, 73, 1) 85%);
     background: #5a733a;
-  font-family: Georgia, "Times New Roman", serif;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 .page {
@@ -146,3 +146,23 @@ html, body {
     display: flex;
     flex-wrap: wrap;
 }
+
+a{
+    color: #5a733a;
+    font-weight: 800;
+  }
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}  
+
+.mbti{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-family: "BBH Bartle", sans-serif;
+  color: rgb(94, 11, 102);
+  text-align: center;
